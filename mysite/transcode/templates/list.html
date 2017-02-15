@@ -1,0 +1,11 @@
+<html>
+<head><title>List of files</title></head>
+<body>
+{% if names %}
+	<ul>
+    	{% for name in names %}
+        	<li>{{ name }}</li>
+        	{% endfor %}
+{% endif %}
+</body>
+</html>

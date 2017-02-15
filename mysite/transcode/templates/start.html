@@ -1,0 +1,10 @@
+Started
+<a href="/transcode">Go back home</a>
+
+
+<h1>Folder path</h1>
+<form role="form" action="list/" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Submit</button>
+</form>

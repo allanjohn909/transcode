@@ -19,4 +19,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^howdy/', include('howdy.urls')),
+    url(r'^transcode/', include('transcode.urls')),
 ]
